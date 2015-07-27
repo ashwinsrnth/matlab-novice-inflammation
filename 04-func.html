@@ -34,7 +34,7 @@
 </div>
 <div class="panel-body">
 <ul>
-<li>Explain a Matlab function file.</li>
+<li>Explain a MATLAB function file.</li>
 <li>Define a function that takes parameters.</li>
 <li>Test a function.</li>
 <li>Know why we should divide programs into small, single-purpose functions.</li>
@@ -48,7 +48,7 @@
 function ktemp = fahr_to_kelvin(ftemp)
     ktemp = ((ftemp - <span class="fl">32</span>) * (<span class="fl">5</span>/<span class="fl">9</span>)) + <span class="fl">273.15</span>;
 end</code></pre>
-<p>A Matlab function <em>must</em> be saved in a text file with a <code>.m</code> extension. The name of that file must be the same as the function defined inside it. The name must start with a letter and cannot contain spaces. So, you will need to save the above code in a file called <code>fahr_to_kelvin.m</code>.</p>
+<p>A MATLAB function <em>must</em> be saved in a text file with a <code>.m</code> extension. The name of that file must be the same as the function defined inside it. The name must start with a letter and cannot contain spaces. So, you will need to save the above code in a file called <code>fahr_to_kelvin.m</code>.</p>
 <p>The first line of our function:</p>
 <pre><code>function ktemp = fahr_to_kelvin(ftemp)</code></pre>
 <p>is called the <em>function definition</em>, and it declares that we’re writing a function named <code>fahr_to_kelvin</code>, that accepts a single parameter, <code>ftemp</code>, and outputs a single value, <code>ktemp</code>. Anything following the function definition line is called the <em>body</em> of the function. The keyword <code>end</code> marks the end of the function body, and the function won’t know about any code after <code>end</code>.</p>
@@ -85,7 +85,7 @@ end</code></pre>
 </div>
 <div class="panel-body">
 <ol style="list-style-type: decimal">
-<li>In Matlab, we concatenate strings by putting them into an array or using the <code>strcat</code> function:</li>
+<li>In MATLAB, we concatenate strings by putting them into an array or using the <code>strcat</code> function:</li>
 </ol>
 <p><sub>~</sub> {.matlab} disp([‘abra’, ‘cad’, ‘abra’]) <sub>~</sub> <sub>~</sub> {.output} abracadabra <sub>~</sub></p>
 <p><sub>~</sub> {.matlab} disp(strcat(‘a’, ‘b’)) <sub>~</sub> <sub>~</sub> {.output} ab <sub>~</sub></p>
