@@ -6,7 +6,7 @@ minutes: 30
 ---
 
 > ## Learning Objectives {.objectives}
-> * Explain a Matlab function file.
+> * Explain a MATLAB function file.
 > * Define a function that takes parameters.
 > * Test a function.
 > * Know why we should divide programs into small, single-purpose functions.
@@ -30,7 +30,7 @@ function ktemp = fahr_to_kelvin(ftemp)
 end
 ~~~
 
-A Matlab function *must* be saved in a text file with a `.m` extension.
+A MATLAB function *must* be saved in a text file with a `.m` extension.
 The name of that file must be the same as the function defined
 inside it. The name must start with a letter and cannot contain spaces. So, you will need to save the above code in a file called
 `fahr_to_kelvin.m`.
@@ -131,7 +131,7 @@ or the next person who reads it won't be able to understand what's going on.
 
 > ## Concatenating in a function {.challenge}
 >
-> 1. In Matlab, we concatenate strings by putting them into an array or using the
+> 1. In MATLAB, we concatenate strings by putting them into an array or using the
 >    `strcat` function:
 >
 >    ~~~ {.matlab}

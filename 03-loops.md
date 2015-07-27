@@ -247,7 +247,7 @@ u
 
 > ## Looping in Reverse {.challenge}
 >
-> In Matlab, the colon operator (`:`) accepts a
+> In MATLAB, the colon operator (`:`) accepts a
 > [stride](reference.> html#stride)
 > or skip argument between the start and stop:
 >
@@ -431,7 +431,7 @@ and their minima show the same staircase structure.
 > ls *.csv
 > ~~~
 >
-> Thankfully, Matlab also has `ls`, though it returns a single long string:
+> Thankfully, MATLAB also has `ls`, though it returns a single long string:
 >
 > ~~~{.matlab}
 > filestr = ls('*.csv')
